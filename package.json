@@ -1,0 +1,26 @@
+{
+  "name": "coder-book",
+  "productName": "Coder Book",
+  "version": "0.0.1",
+  "description": "A notebook app that recognizes code syntax, markdown, latex, and similar",
+  "main": "./src/main.js",
+
+  "license": "GPL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linjer/coderbook"
+  },
+
+  "devDependencies": {
+    "electron-prebuilt": ">=0.34.0",
+    "coffee-script": "^1.10.0",
+    "electron-packager": "^5.1.0",
+    "grunt-cli": "^0.1.13",
+    "grunt-electron": "^2.0.1"
+  },
+
+  "dependencies": {
+    "osx-release": "^1.1.0",
+    "react": "^0.14.0"
+  }
+}
